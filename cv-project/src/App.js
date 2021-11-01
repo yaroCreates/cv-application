@@ -1,5 +1,6 @@
 import React from 'react'
 import Main from './Components/Main'
+import './App.css'
 
 class App extends React.Component {
 	constructor() {
@@ -9,7 +10,7 @@ class App extends React.Component {
 
 
 		}
-    
+
 		this.handleFlip = this.handleFlip.bind(this)
 
 

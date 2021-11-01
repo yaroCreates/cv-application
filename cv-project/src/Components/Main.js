@@ -132,12 +132,12 @@ class Main extends React.Component {
 
 
     render() {
-        const { flip } = this.props
-        const className = flip ? 'flip-container flipped' : 'flip-container'
+        // const { flip } = this.props
+        // const className = flip ? 'flip-container flipped' : 'flip-container'
 
         return (
             <main>
-                <div className={className}>
+                <div className='the-space'>
                     <div className='left'>
                         <Header />
                         <Form

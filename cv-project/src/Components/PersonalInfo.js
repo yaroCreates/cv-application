@@ -5,7 +5,7 @@ function PersonalInfo(props) {
     const {personal, handleChange} = props
     return (
         <section>
-            <h2>Personal Information</h2>
+            <p>Provide the correct information</p>
             <div className='field-field'>
                 <div className='field'>
                     <label>First Name</label>
