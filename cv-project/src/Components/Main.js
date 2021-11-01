@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from './Form'
 import uniqid from 'uniqid'
+import Header from './Header'
 // import Preview from './Preview'
 import { personalField, educationField, experienceField } from "./Information"
 
@@ -137,7 +138,8 @@ class Main extends React.Component {
         return (
             <main>
                 <div className={className}>
-                    <div className='front'>
+                    <div className='left'>
+                        <Header />
                         <Form
                             personal={this.state.personal}
 							handleChangePersonal={this.handleChangePersonal}
@@ -154,7 +156,7 @@ class Main extends React.Component {
                         />
                     </div>
 
-                    <div className='back'>
+                    <div className='right'>
                         {/* <preview 
                             personal={this.state.personal}
 							education={this.state.education}
