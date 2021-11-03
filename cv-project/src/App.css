@@ -46,6 +46,34 @@ body {
 /* section {
 } */
 .field-field{
+    width: 900px;
+    margin: auto;
     padding: 0 60px 0 60px;
     background-color: #ffffff;
+    border-radius: 30px;
+    color: #003D24;
+
+}
+
+.pp {
+    padding: 0 60px 0 60px;
+    margin-bottom: 20px;
+    color: #003D24;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.field label {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.field input[type=text] {
+    font-size: 20px;
 }
