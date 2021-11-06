@@ -19,7 +19,7 @@ function Experience(props) {
 	})
 	return (
 		<section className='experience'>
-			<h2>Experience</h2>
+			<p className='pp2'>Provide experience history</p>
 			{experience.length === 0 ? (
 				<div className='buttons'>
 					<button className='btn add-btn' onClick={handleAdd}>

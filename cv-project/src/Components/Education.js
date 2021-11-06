@@ -1,5 +1,6 @@
 import React from 'react'
 import EducationForm from './EducationForm'
+import EducationHeader from './EducationHeader'
 
 
 function Education(props) {
@@ -19,14 +20,15 @@ function Education(props) {
     })
     return (
 		<section className='education'>
-			<h2>Education</h2>
+            <p className='pp2'>Provide education history</p>
 			{education.length === 0 ? (
 				<div className='buttons'>
-					<button className='btn add-btn' onClick={handleAdd}>
-						Add
+					<button className='add-btn' onClick={handleAdd}>
+						+ Add Education
 					</button>
 				</div>
 			) : null}
+            
 			{educationElements}
 		</section>
 	)

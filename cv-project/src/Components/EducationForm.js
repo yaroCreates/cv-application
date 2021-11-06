@@ -3,7 +3,7 @@ import React from "react"
 function EducationForm(props) {
     const { id, education, handleChange, handleAdd, handleDelete, isLast } = props
     return(
-        <div>
+        <div className='field-field'>
 			<div className='field'>
 				<label>Institution Name</label>
 				<input
@@ -69,11 +69,11 @@ function EducationForm(props) {
 			</div>
 			<div className='buttons'>
 				{isLast ? (
-					<button className='btn add-btn' onClick={handleAdd}>
-						Add
+					<button className='add-btn' onClick={handleAdd}>
+						+ Add Education
 					</button>
 				) : null}
-				<button className='btn delete-btn' onClick={() => handleDelete(id)}>
+				<button className='delete-btn' onClick={() => handleDelete(id)}>
 					Delete
 				</button>
 			</div>

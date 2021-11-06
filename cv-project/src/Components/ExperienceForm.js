@@ -4,7 +4,7 @@ function ExperienceForm(props) {
 	const { experience, id, handleChange, handleAdd, handleDelete, isLast } =
 		props;
 	return (
-		<div>
+		<div className='field-field'>
 			<div className='field'>
 				<label>Company</label>
 				<input
@@ -69,11 +69,11 @@ function ExperienceForm(props) {
 			</div>
 			<div className='buttons'>
 				{isLast ? (
-					<button className='btn add-btn' onClick={handleAdd}>
+					<button className='add-btn' onClick={handleAdd}>
 						Add
 					</button>
 				) : null}
-				<button className='btn delete-btn' onClick={() => handleDelete(id)}>
+				<button className='delete-btn' onClick={() => handleDelete(id)}>
 					Delete
 				</button>
 			</div>
