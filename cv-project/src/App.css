@@ -21,6 +21,10 @@ body {
     margin: 40px auto;
 }
 
+.right {
+    margin: 40px auto;
+}
+
 .heading {
     background: #00FC94;
     height: 90px;

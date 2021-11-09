@@ -2,7 +2,7 @@ import React from 'react'
 import Form from './Form'
 import uniqid from 'uniqid'
 import Header from './Header'
-// import Preview from './Preview'
+import Preview from './Preview/Preview'
 import { personalField, educationField, experienceField } from "./Information"
 
 
@@ -157,12 +157,12 @@ class Main extends React.Component {
                     </div>
 
                     <div className='right'>
-                        {/* <preview 
+                        <Preview 
                             personal={this.state.personal}
-							education={this.state.education}
-							experience={this.state.experience}
+							education={this.state.edu}
+							experience={this.state.exp}
                         
-                        /> */}
+                        />
                     </div>
                 </div>
             </main>

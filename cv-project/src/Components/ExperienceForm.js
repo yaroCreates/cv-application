@@ -70,7 +70,7 @@ function ExperienceForm(props) {
 			<div className='buttons'>
 				{isLast ? (
 					<button className='add-btn' onClick={handleAdd}>
-						Add
+						+ Add Experience
 					</button>
 				) : null}
 				<button className='delete-btn' onClick={() => handleDelete(id)}>
