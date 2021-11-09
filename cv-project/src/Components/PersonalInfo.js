@@ -74,7 +74,7 @@ function PersonalInfo(props) {
                         className='text-input'
                         placeholder='Phone Number'
                         autoComplete='off'
-                        value={personal.email}
+                        value={personal.phone}
                         onChange={handleChange}
 
                     />

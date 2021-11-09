@@ -3,7 +3,7 @@ import React from "react"
 function EducationZone(props){
     const {education} = props
     return(
-        <div className='edu-block'>
+        <div className='block'>
             <div className='time-interval'>
                 {education.from.trim()}-{education.to.trim()}
             </div>

@@ -17,15 +17,15 @@ function Preview(props) {
 
     return (
 
-        <div>
+        <div className='preview'>
             <Header personal={personal} />
             <div className='preview-main'>
                 <section className='preview-section'>
-                    <h3>Education</h3>
+                    <h3 className='title'>Education</h3>
                     {educationBlocks}
                 </section>
                 <section className='preview-section'>
-                    <h3>Experience</h3>
+                    <h3 className='title'>Experience</h3>
                     {experienceBlocks}
                 </section>
             </div>
